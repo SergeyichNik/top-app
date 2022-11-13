@@ -1,4 +1,4 @@
-import {Button, HTag} from "../components";
+import {Button, HTag, PTag} from "../components";
 
 export default function Home() {
 
@@ -10,6 +10,9 @@ export default function Home() {
             <HTag tag={'h3'}>Hello world</HTag>
             <Button appearance={"primary"} arrow={"right"}>Primary</Button>
             <Button appearance={"ghost"} arrow={"down"}>Ghost</Button>
+            <PTag sizeType={"large"}>Large</PTag>
+            <PTag sizeType={"medium"}>Medium</PTag>
+            <PTag sizeType={"small"}>Small</PTag>
         </div>
     );
 }
